@@ -1,0 +1,138 @@
+#outher-wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family:'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+header {
+  max-width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #000000;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding:0 220px;
+}
+.logo {
+  width: 82px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  position: relative;
+  text-decoration: none;
+}
+.logo>a{
+text-decoration: none;
+}
+.logo>a>h1{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3.55px;
+    margin: 0;
+    z-index: 2;
+}
+
+.logo>a>img{
+    position: absolute;
+    width: 13px;
+    height: 20.98px;
+    left: 9.25px;
+    top: 24.64px;
+    z-index: 1;
+  }
+
+#outher-wrapper > header > div:nth-child(2) > nav>ul{
+    display:flex;
+    justify-content: left;
+    padding: 0;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+}
+#outher-wrapper > header > div:nth-child(2) > nav>ul>li>a{
+    margin-left: 58px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+#outher-wrapper > header > div:nth-child(3) >a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* 
+
+#outher-wrapper {
+    width: 1600px;
+    margin: 0 auto;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  header {
+   width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+    display: inline-block;
+   
+   
+    text-decoration: none;
+    padding:0 220px;
+  }
+  .logo {
+    width: 82px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    position: relative;
+    text-decoration: none;
+    float: left;
+  }
+  .logo>a{
+  text-decoration: none;
+  }
+  .logo>a>h1{
+      color: #ffffff;
+      font-size: 19px;
+      font-weight: 400;
+      text-align: center;
+      padding: 3.55px;
+      margin: 0;
+      z-index: 2;
+  }
+  .logo>a>img{
+      position: absolute;
+      width: 7.03px;
+      height: 20.98px;
+      left: 7.13px;
+      top: 24.64px;
+      z-index: 1;
+    }
+
+  #outher-wrapper > header > div:nth-child(2) > nav>ul{
+      display:inline-block;
+      padding: 0;
+      color: #ffffff;
+      text-decoration: none;
+      list-style: none;
+      }
+  #outher-wrapper > header > div:nth-child(2) > nav>ul>li>a{
+      margin-left: 58px;
+      color: #ffffff;
+      text-decoration: none;
+
+  }
+  #outher-wrapper > header > div:nth-child(3) >a{
+      text-decoration: none;
+      color: #ffffff;
+      float: right;
+  } */
