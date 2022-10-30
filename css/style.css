@@ -258,24 +258,24 @@ bottom: 14px;
   border-radius: 100px;
 }
 .button-arrow:active{
-  background: #4B9200; 
+  background: #4B9200;
   cursor: pointer;
 }
 .left {
   position: absolute;
   left: 138px;
-  top: 50%;
-  top: calc(50% - 31px);
+  top:50%;
+  transform: translate(0, -150%);
 }
 .right {
   position: absolute;
   right: 138px;
-  top: calc(50% - 31px);
+  top: 50%;
+  transform: translate(0, -150%);
 }
 #pick-a-feed{
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
   opacity: 0.9;
-  /* padding-top: 1px; */
   display: flow-root;
 }
 
@@ -468,13 +468,13 @@ text-align: left;
  .orange-btn-sq:hover{
   background: #E47209;
   cursor: pointer;
-  
+
 }
 .orange-btn-sq:active{
-  background: #4B9200; 
+  background: #4B9200;
 }
 .orange-btn-sq:disabled{
-  background: #767474;; 
+  background: #767474;
 }
  #testimonials .orange-btn-sq{
   margin-top: 60px;
@@ -516,7 +516,7 @@ text-align: left;
   color: #FFFFFF;
   margin:0 0 0 12px;
  }
- 
+
  #social > div> a >img{
   margin: 0;
  }
