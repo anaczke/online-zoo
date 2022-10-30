@@ -205,9 +205,24 @@ line-height: 22px;
 .animal-photo{
   max-width: 100%;
 }
-.animal-photo:hover{
-  transform: scale(110%);
+.animal:hover{
+  border: none;
 }
+.animal:hover .animal-photo{
+  transform: scale(110%);
+  opacity: 0.8;
+}
+
+.animal:hover .card{
+  background-color: #333B41;
+  opacity: 0.8;
+  padding: 20px 0;
+  overflow: hidden;
+  color: #ffffff;
+  transform: scale(1.1);
+  transform:translateY(-100px);
+}
+
 .p-title{
   font-weight: 500;
   font-size: 16px;
