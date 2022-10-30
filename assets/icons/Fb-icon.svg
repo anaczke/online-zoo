@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26" height="26">
+	<title>Ellipse 17-svg</title>
+	<defs>
+		<image width="8" height="16" id="img1" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDggMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNOCAyLjc1MDA4SDYuNEM1LjI5ODMyIDIuNzUwMDggNS4zMzM0MiAzLjE0MzE2IDUuMzMzNDIgMy44NjE5VjQuOTk5OTFIOEw3LjQ2NjU4IDhINS4zMzM0MlYxNkgxLjZWOEgwVjQuOTk5OTFIMS42VjMuNTg2OTJDMS42IDEuMzM3ODIgMi43OTc0MiAwIDUuNjI2ODQgMEg4VjIuNzUwMDhaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"/>
+	</defs>
+	<style>
+		.s0 { opacity: .5;fill: #c4c4c4 } 
+	</style>
+	<path id="Layer" class="s0" d="m13 26c-7.2 0-13-5.8-13-13 0-7.2 5.8-13 13-13 7.2 0 13 5.8 13 13 0 7.2-5.8 13-13 13z"/>
+	<use id="Fb" href="#img1" transform="matrix(1,0,0,1,9,5)"/>
+</svg>
