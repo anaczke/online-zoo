@@ -1,3 +1,4 @@
 # online-zoo
 Online Zoo - RS School task
-https://anaczke.github.io/online-zoo/
+
+https://anaczke.github.io/online-zoo/pages
