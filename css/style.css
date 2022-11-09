@@ -562,7 +562,7 @@ color: #4B9200;
   #subscribe{
   justify-self:right;
  }
- #subscribe > p{
+ #subscribe > label{
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
@@ -622,18 +622,12 @@ text-align:right;
   background-image: url("../assets/img/Giant Panda.png");
   height: 590px;
   background-repeat: no-repeat;
-  /* background-position: center top; */
-  /* position: absolute; */
   position: relative;
-  top:-100px;
   padding-bottom: 1px;
 }
 #pick-and-feed-donate{
-  /* position: absolute; */
   height: 1482px;
   padding:40px 220px 180px 220px;
-  /* margin:1px auto; */
-  /* top: 466px; */
   background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
 }
 #pick-and-feed-donate >h2{
@@ -664,9 +658,9 @@ text-align: left;
 #pick-and-feed-donate-inner-div{
   height: 964px;
   background: rgba(255, 255, 255, 0.52);
-backdrop-filter: blur(2px);
-border-radius: 20px;
-padding: 40px 92px 62px 92px;
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding: 40px 92px 62px 92px;
 }
 #pick-and-feed-donate-inner-div>h2{
   font-weight: 400;
@@ -705,11 +699,11 @@ padding: 40px 92px 62px 92px;
 
 #panda-flex > div:nth-child(1) > p:nth-child(2){
   font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-text-align: center;
-color: #333B41;
-padding-top: 11px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #333B41;
+  padding-top: 11px;
 }
 #panda-flex > div:nth-child(2) > img{
   width: 14px;
@@ -723,16 +717,16 @@ padding-top: 11px;
 }
 #amount-bar > p{
   font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #000000;
-padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-bottom: 10px;
 }
 
 fieldset{
   width: 100%;
   padding: 0;
-border: none;
+  border: none;
 }
 
 

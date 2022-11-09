@@ -81,7 +81,7 @@
             </div>
             <div id="form">
                 <form action="">
-                    <input type="number" placeholder="Another amount                           $" >
+                    <input type="number" min="1" max="9999" placeholder="Another amount                           $" >
                     <br>
 
                     <label class="radio-label">
@@ -97,9 +97,6 @@
                 </form>
             </div>
             <p>Share with your friends on social networks</p>
-
-
-            <!-- <p>&#36;;</p>  -->
 
 
         </div>
@@ -154,8 +151,8 @@
     </div>
     <div id="footer-right">
 <div id="subscribe">
-<p>Subscribe to our News</p>
-<input type="email" placeholder="Enter your email">
+<label for="email">Subscribe to our news</label>
+<input type="email" id="email" placeholder="Enter your email">
 <button type="submit">Submit</button>
 </div>
 <p>Designed by Alisa Samborskaya <br> &#169;RSSchool 	&#38; &#169;Yem Digital 2021  </p>
